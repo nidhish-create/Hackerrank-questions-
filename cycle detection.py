@@ -22,7 +22,7 @@ class SinglyLinkedList:
         if not self.head:
             self.head = node
         else:
-            self.tail.next = node
+            self.tail.next = node   
 
 
         self.tail = node
