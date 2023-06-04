@@ -7,7 +7,7 @@ def insertion_sort(l):
         while (j > 0) and (l[j] > key):
            l[j+1] = l[j]              
            j -= 1
-        l[j+1] = key
+        l[j+1] = key            
          
 m = int(input().strip())
 ar = [int(i) for i in input().strip().split()]
