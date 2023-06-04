@@ -8,7 +8,7 @@ def insertion_sort(l):
            l[j+1] = l[j]              
            j -= 1
         l[j+1] = key
-
+         
 m = int(input().strip())
 ar = [int(i) for i in input().strip().split()]
 insertion_sort(ar)
